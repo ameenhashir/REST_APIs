@@ -1,0 +1,13 @@
+from application_1 import db,User
+db.create_all()
+ad.session.add(User(username='ameenhashir',email='ameenhashir@gmail.com')
+)
+db.session.add(User(username='ameenhashir',email='ameenhashir@gmail.com'))
+db.session.add(User(username='irinejaleel',email='irinejaleel@gmail.com'))
+db.session.commit()
+User.query.all()
+User.query.get(1)
+User.query.get_or_404(3)
+exit()
+import readline
+readline.write_history_file("create_db_application1.txt")
